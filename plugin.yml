@@ -1,0 +1,24 @@
+name: EventTeamPlugin
+version: '${project.version}'
+main: com.example.eventplugin.EventPlugin
+api-version: '1.21'
+author: Du
+description: Event Plugin - Team Wahl Blau/Rot
+commands:
+  event:
+    description: Event verwalten
+    usage: /event <Spieler> | /event set <red|blue>
+    permission: event.admin
+  blau:
+    description: Blaues Team
+    usage: /blau
+  rot:
+    description: Rotes Team
+    usage: /rot
+  blue:
+    usage: /blue
+  red:
+    usage: /red
+permissions:
+  event.admin:
+    default: op

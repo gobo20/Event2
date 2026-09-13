@@ -1,0 +1,4 @@
+name: EventTeamPlugin
+version: '${project.version}'
+main: com.example.eventplugin.EventPlugin
+api-version: '1.21'

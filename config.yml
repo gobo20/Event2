@@ -1,0 +1,16 @@
+# EventTeamPlugin Config - wird automatisch befüllt mit /event set red/blue
+locations:
+  red:
+    world: world
+    x: 0.0
+    y: 100.0
+    z: 0.0
+    yaw: 0.0
+    pitch: 0.0
+  blue:
+    world: world
+    x: 100.0
+    y: 100.0
+    z: 0.0
+    yaw: 0.0
+    pitch: 0.0
